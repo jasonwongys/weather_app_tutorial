@@ -8,3 +8,5 @@ module.exports = (app) => {
     require(`./api/${file.substr(0, file.indexOf('.'))}`)(app);
   });
 };
+
+//This export handles gathering all of the routes and exporting them. 
